@@ -1,26 +1,24 @@
-import Location from '../images/icon-location.svg'
-import { MapContainer, Marker, Popup, TileLayer, ZoomControl } from 'react-leaflet'
-import L from 'leaflet'
+import { MapContainer, TileLayer, ZoomControl } from 'react-leaflet'
 
-const svgIcon = L.icon({
-    iconUrl: `${Location}`,
-    className: "",
-});
+import MarkerPostion from './MarkerPostion';
 
 
-const Map = () => {
+const Map = ({info}) => {
+    var position = [51.505, -0.09];
+    if(typeof(info) !== 'undefined'){
+        const infoPosition = info[0].location;
+        position = [infoPosition.lat,infoPosition.lng];
+    }
+
     return (
-        <MapContainer center={[51.505, -0.09]} zoom={20} zoomControl={false} >
+        <MapContainer center={position} zoom={15} zoomControl={false} >
             <TileLayer
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                 attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
             />
             <ZoomControl position='bottomright'/>
-            <Marker position={[51.505, -0.09]} icon={svgIcon}>
-                <Popup>
-                    A pretty CSS3 popup. <br /> Easily customizable.
-                </Popup>
-            </Marker>
+            <MarkerPostion position={position}/>
+
         </MapContainer>
     );
 }
