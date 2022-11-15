@@ -27,15 +27,15 @@ Users should be able to:
 ### Screenshot
 
 - Desktop Screen :
-  ![Desktop Screen](/src/images/screenShots/ipTraccker_desktop.png)
+  ![Desktop Screen](/src/images/ScreenShots/ipTraccker_desktop.png)
 
 - Mobile Screen :
-  ![Mobile Screen](/src/images/screenShots/ipTraccker_(iPhone%20XR).png)
+  ![Mobile Screen](/src/images/ScreenShots/ipTraccker_(iPhone%20XR).png)
 
 - Ipad Screen :
   ![ipad Screen](/src/images/screenShots/ipTraccker_(iPad%20Air).png)
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+
 
 ### Links
 
