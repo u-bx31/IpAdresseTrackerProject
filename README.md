@@ -33,7 +33,7 @@ Users should be able to:
   ![Mobile Screen](/src/images/ScreenShots/ipTraccker_(iPhone%20XR).png)
 
 - Ipad Screen :
-  ![ipad Screen](/src/images/screenShots/ipTraccker_(iPad%20Air).png)
+  ![ipad Screen](src/images/ScreenShots/ipTraccker_(iPad%20Air).png)
 
 
 
