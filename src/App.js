@@ -103,6 +103,7 @@ function App() {
       <div className='mp'>
         <Map info={info} />
       </div>
+      
     </React.StrictMode>
   );
 
