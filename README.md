@@ -39,7 +39,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [LoopStudios](https://loopstudios031.netlify.app/)
+- Solution URL: [Ip Adresse Tracker](https://ip-adresse-tracker31.netlify.app/)
 
 ## My process
 
