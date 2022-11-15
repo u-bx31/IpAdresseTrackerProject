@@ -62,7 +62,7 @@ body input[type=text] {
 
 .info-section {
   position: relative;
-  margin-bottom: -50px;
+  margin-bottom: -60px;
   z-index: 999;
 }
 
